@@ -1,0 +1,28 @@
+// comentario q no compila // 
+/* var */
+$colorPrincipal: aqua;
+$colorSecundario: black;
+$border: 2px solid greenyellow;
+$mobile: 564px;
+$tablet: 764px;
+
+@import 'header';
+
+
+
+
+section {
+    $destacado: 48px;
+    background-color: pink;
+    h2 {
+        color: red;
+    }
+    div {
+        background-color: aqua;
+        border: 1px solid #333;
+        p{
+            font-size: 24px;
+        }
+    }
+}
+
